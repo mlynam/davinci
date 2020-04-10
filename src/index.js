@@ -1,3 +1,3 @@
-window.addEventListener("load", () => {
-  console.log("Application loaded!");
-});
+import bootstrap from "./core/bootstrap";
+
+bootstrap(document.getElementById("app"));
